@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 20px;
+            background-color: beige;
+        }
+        li{
+            display: inline-block;
+            margin-left: 20px;
+        }
+        div{
+            /* display: inline-block; */
+            width: 150px;
+            height: 60px;
+            border: 1px solid #715;
+            background-color: beige;
+
+
+        }
+        /* id는 #으로 표시 */
+        /* hover : 마우스 올렸을 때 이벤트 */
+        /* opacity : 불투명도? */
+        #n3:hover{opacity: 0.6;
+
+        }
+        
+        /* class는 .으로 표시 */
+        .sub{
+            background-color: blanchedalmond;
+            position: relative;
+            top: 10px;
+            left: 30px;
+        }
+        #fix{
+            /* position: fixed; */
+            position : absolute;
+            bottom: 50px;
+            right: 100px;       
+
+        }
+        #float{
+            position: fixed;
+            width: 300px;
+            height: 200px;
+        }
+        table{
+            background-color: azure;
+            /* border-collapse: collapse; */
+
+        }
+        td{
+            border: 3px solid;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div>DIV1</div>
+    <div class="sub">DIV2</div>
+    <div id="n3">DIV3</div>
+    <div class="sub">DIV4</div>
+    <div>DIV5</div>
+    <div id="fix">DIV6</div>
+    <!-- <div id="float">
+        DIV7
+        <img src="image/swim.jpg" width="250px" style="float:right">
+    </div> -->
+    <ul>
+        <li style="list-style: square;">프랑스</li>
+        <li style="list-style: circle;">이탈리아</li>
+        <li style="list-style: disc;">체코</li>
+    </ul>
+    <table>
+        <td>월</td> <td>화</td><td>수</td>
+    </table>
+</body>
+</html>
