@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<main>
+
+    <head>
+        <title>2024년 내가 봤던 영화들</title>
+    </head>
+
+    <style>
+        .movie {
+            position: relative;
+        }
+
+        .title {
+            font-size: 30px;
+        }
+
+        .poster {
+            display: inline-block
+        }
+
+        .reviews {
+            background-color: rgb(222, 252, 252);
+            width: 600px;
+            position: absolute;
+            top: 20px;
+            right: 300px;
+        }
+    </style>
+
+    <body>
+        <header>
+            <h1>2024년 내가 봤던 영화들</h1>
+            자유롭게 별점과 리뷰를 남겨주세요.
+            <div
+                style="position: absolute; top: 0; right: 20px; font-size: 20px; background-color: rgb(255, 248, 238); padding-left: 20px; padding-right: 20px;">
+                <p>학번 : 201903547</p>
+                <p>이름 : 유한빈</p>
+            </div>
+        </header>
+        <br>
+        <hr>
+
+        <h2>영화 목록</h2>
+        <nav>
+            <ol>
+                <li><a href="#movie1">movie1</a></li>
+                <li><a href="#movie2">movie2</a></li>
+                <li><a href="#movie3">movie3</a></li>
+            </ol>
+            <br>
+        </nav>
+        <hr>
+
+        <section>
+            <div class="movie" id="movie1">
+                <div class="title" , id="title1">movie1</div><br>
+                <div class="poster"><img src="poster.jpg" width="275" height="400"><br></div>
+                <div class="reviews">
+                    <h3>리뷰</h3>
+                    <p>작성한 리뷰들</p>
+                </div>
+                <div>
+                    <p>별점</p>
+                    <select>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <textarea placeholder="소감 작성란" id="review-text" rows="10"></textarea>
+                    <button id="submit-review">제출</button>
+                </div>
+                <hr><br>
+            </div>
+            
+            <div class="movie" id="movie2">
+                <div class="title" , id="title2">movie2</div><br>
+                <div class="poster"><img src="poster.jpg" width="275" height="400"><br></div>
+                <div class="reviews">
+                    <h3>리뷰</h3>
+                    <p>작성한 리뷰들</p>
+                </div>
+                <div>
+                    <p>별점</p>
+                    <select>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <textarea placeholder="소감 작성란" id="review-text" rows="10"></textarea>
+                    <button id="submit-review">제출</button>
+                </div>
+                <hr><br>
+            </div>
+
+            <div class="movie" id="movie3">
+                <div class="title" , id="title3">movie3</div><br>
+                <div class="poster"><img src="poster.jpg" width="275" height="400"><br></div>
+                <div class="reviews">
+                    <h3>리뷰</h3>
+                    <p>작성한 리뷰들</p>
+                </div>
+                <div>
+                    <p>별점</p>
+                    <select>
+                        <option value="1">★☆☆☆☆</option>
+                        <option value="2">★★☆☆☆</option>
+                        <option value="3">★★★☆☆</option>
+                        <option value="4">★★★★☆</option>
+                        <option value="5">★★★★★</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <textarea placeholder="소감 작성란" id="review-text" rows="10"></textarea>
+                    <button id="submit-review">제출</button>
+                </div>
+                <hr><br>
+            </div>
+        </section>
+    </body>
+</main>
+
+</html>
